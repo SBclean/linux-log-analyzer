@@ -1,0 +1,35 @@
+{
+  "logfile": "Linux/Linux.log",
+
+  "thresholds": {
+    "auth_fail_max": 5,
+    "root_login_max": 3,
+    "user_creation_max": 3,
+    "su_fail_max": 3,
+    "time_window": 5
+  },
+
+  "blacklist": {
+    "ips": ["84.154.104.207", "63.126.79.73", "62.154.184.86"],
+    "users": ["test", "news", "amanda"]
+  },
+
+  "cron_watch": {
+    "enabled": true,
+    "keywords": ["wget", "curl", "nc", "bash", "sh", "python", "perl", "socat"]
+  },
+
+  "alert_toggles": {
+    "auth_fail": true,
+    "blacklist_login": true,
+    "session_flood": true,
+    "priv_escalation": true,
+    "malicious_cron": true,
+    "repeat_root": true,
+    "cron_shell": true,
+    "unusual_ssh_port": true,
+    "mass_user_creation": true,
+    "reverse_shell": true,
+    "su_attempt": true
+  }
+}
