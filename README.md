@@ -16,10 +16,10 @@ Failed authentication attempts, Blacklisted user or IP access, consecutive sessi
 - CLI interface
 
 # Installation
-git clone https://github.com/sbclean/linux-log-analyzer.gi
+git clone https://github.com/SBclean/linux-log-analyzer.git
 cd linux-log-analyzer
 python3 -m venv venv
-sorce venv/bin/activate
+source venv/bin/activate
 pip install -r requirements.txt
 
 # Usage
