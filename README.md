@@ -21,9 +21,13 @@ priviledge escalation, cron jobs, repeat root user, cron shell, unusual ssport, 
 
 # Installation
 git clone https://github.com/SBclean/linux-log-analyzer.git
+
 cd linux-log-analyzer
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 # Usage
