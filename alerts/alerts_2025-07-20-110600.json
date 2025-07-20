@@ -1,0 +1,75 @@
+{
+    "summary_metadata": {
+        "timestamps": "2025-07-20 11:06:00.636233",
+        "log_file": "Linux/Linux.log",
+        "scan_mode": "once",
+        "number_of_scanned_logs": 10,
+        "total_alerts_detected": {
+            "detected Authentication fails": 0,
+            "detected blacklist accesses": 0,
+            "detected priviledge escalations": 0,
+            "detected consecutive session creations": 0,
+            "detected malicious crons": 0,
+            "detected repeat root accesses": 0,
+            "detected cron shells": 0,
+            "detected unusual ssh port": 0,
+            "detected consecutive user creations": 0,
+            "detected reverse shells": 0,
+            "detected SU attempts": 0
+        },
+        "alerts_summary": {
+            "1688849861040356": [
+                "Linux/Linux.log",
+                820
+            ]
+        },
+        "scanned_offset_start": 0,
+        "scanned_offset_end": 820
+    },
+    "alert_details": {
+        "Authentication_fail_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Blacklist_access_alerts:": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Consecution_session_creation_alert": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Priviledge_escalation_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Cron_usage_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Repeat_root_user_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Cron_shell_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Unusual_ssport_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Consecutive_user_creation_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Reverse_shell_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        },
+        "Failed_su_attempt_alerts": {
+            "line_numbers": [],
+            "time_stamps": []
+        }
+    }
+}
