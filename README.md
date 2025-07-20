@@ -1,6 +1,6 @@
 # Linux Log Anomaly Detection & Alerting Tool
 
-This is a lightweight, configurable Python tool for real-time (and once-time) Linux system logs scanning. 
+This is a lightweight, configurable Python tool for real-time (and one-time) Linux system logs scanning. 
 It detects suspicious activity through regular expression, tracks offsets, handles log rotation, 
 time and line based log senstivity, and generates a full summary report in a json.
 
